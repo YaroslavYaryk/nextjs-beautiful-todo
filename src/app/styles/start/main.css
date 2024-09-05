@@ -1,0 +1,250 @@
+.content {
+    width: 100%;
+    height: 100vh;
+    background: #24A19C;
+}
+
+.content-center-outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    transform: translateY(-100px);
+}
+
+.content-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+}
+
+.content-center-image {
+    background: #fff;
+    border-radius: 13.8px;
+
+    height: 80px;
+    width: 80px;
+}
+
+.content-center-image img {
+    padding: 5px;
+}
+
+.content-center-text {
+    margin-top: 10px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.content-center-subtext {
+    margin-top: 10px;
+}
+
+.content-center-bottom-buttons {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.content-center-bottom-button-large {
+    width: 25px;
+    height: 8px;
+    border-radius: 8px;
+    background: #fff;
+
+}
+
+.content-center-bottom-button {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.content-page2 {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+}
+
+.content-center-outer2 {
+    transform: translateY(30px);
+    display: flex;
+    flex: 1
+}
+
+.content-center-outer3 {
+    transform: translateY(100px);
+    display: flex;
+    flex: 1
+}
+
+.content-center-bottom-buttons-second .content-center-bottom-button-large {
+    background: #24A19C;
+}
+
+.content-center-bottom-buttons-second .content-center-bottom-button {
+    background: #CBF1F0;
+}
+
+.page2-content-center-text {
+    color: #000;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    transform: translateY(-100px);
+    line-height: 30px;
+}
+
+.page2-content-center-subtext {
+    color: #767E8C;
+    text-align: center;
+    transform: translateY(-80px);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.content-center-bottom-buttons-second {
+    margin-top: -60px;
+}
+
+.page-bottom-footer {
+    transform: translateY(100px);
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.page-bottom-button {
+    background: #24A19C;
+    width: 90%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    color: #fff;
+}
+
+.content-center-outer3 {
+    transform: translateY(50px);
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+}
+
+html{
+    height: 100px !important;
+    overflow: hidden;
+}
+
+
+body {
+    height: 100vh !important;
+    /*overflow: auto;*/
+    /*overflow-y: hidden;*/
+    overflow-x: hidden;
+}
+
+body.first-page{
+    background: #24A19C;
+}
+
+body.safari-browser-2{
+    height: 130vh !important;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+
+body.safari-browser-1{
+    height: 140vh !important;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+body.safari-browser-3{
+    height: 130vh !important;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+body.safari-browser-4{
+    height: 117vh !important;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+
+.page {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    transition: all 0.5s ease-in-out;
+    transform: translateX(100%);
+}
+
+.page-previous {
+    transform: translateX(-100%);
+}
+
+.page.active {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    transform: translateX(0);
+}
+
+.page4-header {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.page4-header span {
+    color: #24A19C;
+}
+
+.button-icon {
+    margin-right: 10px;
+}
+
+.page-bottom-subtext{
+    color: #767E8C;
+    margin-top: 20px;
+}
+
+.page-bottom-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 90%;
+    gap: 10px;
+}
+
+.block-buttons-page4{
+    margin-top: 60px;
+}
+
+.page4-bottom-button{
+    background: #F3F5F9;
+    color: #1B1C1F;
+}
+
+.page4-content-center-image{
+    margin-top: 30px;
+}
+
+.forth-page .page-bottom-footer{
+    display: none;
+}
