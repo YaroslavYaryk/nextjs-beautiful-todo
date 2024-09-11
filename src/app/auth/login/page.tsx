@@ -115,8 +115,8 @@ const Page = (props: any) => {
     setError(null);
     try{
       const response = await axios.post(`${SERVER_HOST}:${SERVER_PORT}/auth/sign-in/`,{
-        "Username": username,
-        "Password": password
+         username,
+         password
       }, {
         headers: {
           'Content-Type': 'application/json',

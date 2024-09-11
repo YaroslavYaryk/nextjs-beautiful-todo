@@ -4,7 +4,6 @@ import React from 'react';
 import '../../styles/start/main.css'
 import '../../styles/auth/login.css'
 import FormControl from '@mui/material/FormControl';
-import InputLabel from '@mui/material/InputLabel';
 import OutlinedInput from '@mui/material/OutlinedInput';
 import InputAdornment from '@mui/material/InputAdornment';
 import IconButton from '@mui/material/IconButton';
@@ -135,9 +134,9 @@ const Page = (props: any) => {
     setError(null);
     try{
       const response = await axios.post(`${SERVER_HOST}:${SERVER_PORT}/auth/sign-up/`,{
-        "Username": username,
-        "Password": password,
-        "Name": name
+        username,
+        password,
+        name
       }, {
         headers: {
           'Content-Type': 'application/json',

@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1c0fdea-efa6-429c-b9bb-75da552b5dc8" name="Changes" comment="authentication and first page display logic">
-      <change afterPath="$PROJECT_DIR$/src/app/styles/auth/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/functions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/hooks.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/store.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middleware.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/auth/login/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/auth/login/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/auth/register/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/auth/register/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/start/components/forthPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/start/components/forthPage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/start/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/start/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/start/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/start/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/todo/list/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/todo/list/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +97,7 @@
       <workItem from="1725704202711" duration="4999000" />
       <workItem from="1725977108519" duration="9284000" />
       <workItem from="1726040159540" duration="9827000" />
-      <workItem from="1726077704945" duration="3370000" />
+      <workItem from="1726077704945" duration="3459000" />
     </task>
     <task id="LOCAL-00001" summary="first page">
       <option name="closed" value="true" />
@@ -121,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725562774697</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="authentication and first page display logic">
+      <option name="closed" value="true" />
+      <created>1726081641715</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726081641715</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
