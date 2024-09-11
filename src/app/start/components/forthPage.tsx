@@ -17,8 +17,6 @@ const ForthPage = (props: Props) => {
 
   }
 
-
-
   return (
     <div className="content-page2">
       <div className="page4-header">
@@ -37,7 +35,7 @@ const ForthPage = (props: Props) => {
           </div>
           <div className="page-bottom-button block-buttons-page4" onClick={() =>{props.redirectToLogin()}}>
             <span className='button-icon'><IoMail size={20} color='#fff'/></span>
-            Continue with email
+            Continue with username
           </div>
           <div className="page-bottom-subtext">
             or continue with

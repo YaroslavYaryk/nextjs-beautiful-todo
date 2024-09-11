@@ -1,0 +1,80 @@
+.input-label{
+    color: #000;
+    transform: translateY(-10px);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.content-center-auth{
+    display: flex;
+    flex: 1;
+    /*justify-content: center;*/
+    width: 100%;
+    align-items: center;
+}
+
+.content-center-auth{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.MuiInputBase-root{
+    background: #F6F7F9
+}
+
+.page-header{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-header-auth{
+    text-align: center;
+}
+
+.page-header-auth-main{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.page-header-auth-subset{
+    font-size: 12px;
+    color: #767E8C;
+}
+
+/*body{*/
+/*    overflow-y: auto;*/
+/*}*/
+
+.page-bottom-footer{
+}
+
+.safari-footer{
+    padding-bottom: 90px;
+}
+
+.page-bottom-footer{
+    position: relative;
+}
+
+.register-account{
+    position: absolute;
+    top: -30px;
+    /*left: 30px*/
+}
+
+.register-account span{
+    color: #3472bf;
+    text-decoration: underline;
+}
+
+.error-block{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

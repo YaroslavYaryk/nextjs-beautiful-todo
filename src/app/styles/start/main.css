@@ -76,13 +76,17 @@
 .content-center-outer2 {
     transform: translateY(30px);
     display: flex;
-    flex: 1
+    flex: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 .content-center-outer3 {
     transform: translateY(100px);
     display: flex;
-    flex: 1
+    flex: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 .content-center-bottom-buttons-second .content-center-bottom-button-large {

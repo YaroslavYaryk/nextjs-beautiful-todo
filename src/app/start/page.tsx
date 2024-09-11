@@ -14,7 +14,7 @@ import {useRouter} from "next/navigation";
 
 const Page = (props: any) => {
 
-  const [page, setPage] = React.useState(2);
+  const [page, setPage] = React.useState(1);
 
   const router = useRouter();
 
