@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1c0fdea-efa6-429c-b9bb-75da552b5dc8" name="Changes" comment="authentication and first page display logic">
+    <list default="true" id="c1c0fdea-efa6-429c-b9bb-75da552b5dc8" name="Changes" comment="json small change">
+      <change afterPath="$PROJECT_DIR$/src/app/styles/todo/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/todo/list/components/ChooseTaskColor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/todo/list/components/ColorTheme.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/store/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/store/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/structs/user.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/auth/login/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/auth/login/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/auth/register/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/auth/register/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/todo/list/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/todo/list/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/store.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/middleware.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +78,7 @@
       <recent name="$PROJECT_DIR$/public/fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/todo/list" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/app/todo" />
     </key>
@@ -97,7 +106,10 @@
       <workItem from="1725704202711" duration="4999000" />
       <workItem from="1725977108519" duration="9284000" />
       <workItem from="1726040159540" duration="9827000" />
-      <workItem from="1726077704945" duration="3459000" />
+      <workItem from="1726077704945" duration="3672000" />
+      <workItem from="1726133093589" duration="2841000" />
+      <workItem from="1726213564482" duration="9038000" />
+      <workItem from="1726681218689" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="first page">
       <option name="closed" value="true" />
@@ -115,7 +127,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726081641715</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="json small change">
+      <option name="closed" value="true" />
+      <created>1726081893604</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726081893604</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +144,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first page" />
     <MESSAGE value="authentication and first page display logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="authentication and first page display logic" />
+    <MESSAGE value="json small change" />
+    <option name="LAST_COMMIT_MESSAGE" value="json small change" />
   </component>
 </project>

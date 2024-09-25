@@ -1,0 +1,125 @@
+body{
+    background: #E7ECF5;
+}
+
+.choose-color-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.choose-color-header{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.choose-color-header-text{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.choose-color-header-subtext{
+    color: #767E8C;
+    font-size: 14px;
+}
+
+
+.choose-color-body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    gap: 30px;
+}
+
+.choose-color-footer{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-bottom-button{
+    height: 60px;
+    background: #24A19C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    border-radius: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.color-theme-container{
+    height: 104px;
+    width: 90vw;
+    position: relative;
+}
+
+.color-theme-header{
+    height: 36px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.color-theme-body{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 68px;
+    background: #fff;
+}
+
+.color-theme-body-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-theme-body-left-inner{
+    height: 39px;
+    width: 39px;
+    background: #E7ECF5;
+    border-radius: 50%;
+}
+
+.color-theme-body-right{
+    padding: 15px 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.color-theme-body-right-row{
+    background: #E7ECF5;
+    height: 7px;
+}
+
+.color-theme-body-right-row:nth-child(1){
+    width: 90%;
+}
+
+.color-theme-body-right-row:nth-child(2){
+    width: 70%;
+}
+
+.color-theme-body-right-row:nth-child(3){
+    width: 80%;
+}
+
+.theme-selected{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+
+}

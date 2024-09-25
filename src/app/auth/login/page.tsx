@@ -125,7 +125,9 @@ const Page = (props: any) => {
       if (response.data.token){
         document.cookie = `token=${response.data.token}; Secure; SameSite=Strict;  Path=/; Max-Age=36000`;
         localStorage.setItem('token', response.data.token);
-        router.push('/todo/list');
+        setTimeout(() =>{
+          router.push('/todo/list');
+        }, 100)
       }
     }catch (error: any){
       if (error.response && error.response.data.error === "sql: no rows in result set"){
