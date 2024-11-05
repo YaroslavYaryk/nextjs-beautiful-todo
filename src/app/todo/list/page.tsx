@@ -7,6 +7,8 @@ import {useUserStore} from "@/lib/store/user";
 import ChooseTaskColor from "@/app/todo/list/components/ChooseTaskColor";
 import '../../styles/todo/list.css'
 import {UserStruct} from "@/lib/structs/user";
+import {NextResponse} from "next/server";
+import {redirect, useRouter} from "next/navigation";
 
 const availableColors = ['#24A19C', '#1B1C1F', '#EA4335', '#1877F2']
 
@@ -21,6 +23,9 @@ const Page = () => {
 
   const {setUser} = useUserStore();
 
+  const router = useRouter();
+
+
   const loadUser = React.useCallback(async (token: string) => {
     setError(null);
     setLoading(true);
@@ -32,6 +37,7 @@ const Page = () => {
           'Authorization': `Bearer ${token}`,
         },
       });
+
       setUser(response.data);
       setCurrentUser(response.data);
       if (!response.data.task_color) {
@@ -39,6 +45,11 @@ const Page = () => {
       }
 
     } catch (error: any) {
+      if (error.response.status === 401) {
+        document.cookie = `token=; Secure; SameSite=Strict; Path=/; Max-Age=0`;
+        localStorage.removeItem("token");
+        router.push('/auth/login');
+      }
       setError(error.message);
 
     } finally {
@@ -66,9 +77,7 @@ const Page = () => {
         task_color: color,
       }))
       us.task_color = color;
-      console.log({
-        ...us
-      })
+
       const token = localStorage.getItem("token");
       const response = await axios.post(`${SERVER_HOST}:${SERVER_PORT}/api/user/edit`, {
         ...us
@@ -78,13 +87,15 @@ const Page = () => {
           'Authorization': `Bearer ${token}`,
         },
       });
-      console.log(response.data)
       setUser(response.data);
       if (!response.data.task_color) {
         setShowChooseColor(true);
+      }else{
+        setShowChooseColor(false);
       }
 
     } catch (error: any) {
+      console.log(error);
       setError(error.message);
 
     } finally {

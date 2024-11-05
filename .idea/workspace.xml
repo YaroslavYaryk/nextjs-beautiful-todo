@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1c0fdea-efa6-429c-b9bb-75da552b5dc8" name="Changes" comment="json small change">
-      <change afterPath="$PROJECT_DIR$/src/app/styles/todo/list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/todo/list/components/ChooseTaskColor.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/todo/list/components/ColorTheme.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/store/auth.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/store/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/structs/user.ts" afterDir="false" />
+    <list default="true" id="c1c0fdea-efa6-429c-b9bb-75da552b5dc8" name="Changes" comment="new changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/auth/login/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/auth/login/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/todo/list/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/todo/list/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/store.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/middleware.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +77,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
       </set>
     </attachedChunks>
   </component>
@@ -110,6 +101,8 @@
       <workItem from="1726133093589" duration="2841000" />
       <workItem from="1726213564482" duration="9038000" />
       <workItem from="1726681218689" duration="1000" />
+      <workItem from="1727253480998" duration="28000" />
+      <workItem from="1730830624363" duration="2291000" />
     </task>
     <task id="LOCAL-00001" summary="first page">
       <option name="closed" value="true" />
@@ -135,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726081893604</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="new changes">
+      <option name="closed" value="true" />
+      <created>1727253504474</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727253504474</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +146,7 @@
     <MESSAGE value="first page" />
     <MESSAGE value="authentication and first page display logic" />
     <MESSAGE value="json small change" />
-    <option name="LAST_COMMIT_MESSAGE" value="json small change" />
+    <MESSAGE value="new changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="new changes" />
   </component>
 </project>
